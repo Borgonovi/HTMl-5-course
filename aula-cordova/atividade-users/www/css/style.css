@@ -1,0 +1,30 @@
+ion-content{
+	background-color: #000;	
+}
+
+.title{
+	background-image: url(http://img.ibxk.com.br/papel-de-parede/bxk/2255342-202918-1280.jpg);
+
+	background-repeat: no-repeat;
+	background-size: 85px;
+}
+
+.item a{
+	border: 0;
+	background-color: #DCDCDC;
+}
+
+.item h2{
+
+	font-family: sans-serif;
+	font-weight: bold;;
+}
+
+.item p{
+	color:#000;
+}
+
+#email{
+	color:#0000EE;
+}
+/* Empty. Add your own CSS if you like */

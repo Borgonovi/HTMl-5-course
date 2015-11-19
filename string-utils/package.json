@@ -1,0 +1,19 @@
+{
+  "name": "test-string-borgonovi",
+  "version": "0.0.0",
+  "description": "module test, to test tests, and publish module on npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/unit/*.js"
+  },
+  "keywords": [
+    "string",
+    "test",
+    "lorem"
+  ],
+  "author": "Borgonovi",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}

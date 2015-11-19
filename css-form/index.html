@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form action="get">
+		<label>Nome:&nbsp;
+			<input type="text" name="nome" placeholder="Nome">
+		</label>
+		<br><br>
+		<label>E-mail:&nbsp;
+			<input type="email" name="email" placeholder="Email">
+		</label>
+		<br><br>
+		<label>CPF:&nbsp;
+			<input type="text" name="cpf" placeholder="CPF">
+		</label>
+		<br><br>
+		<label>Nascimento:
+			<input type="date" name="nascimento">
+		</label>
+		<br><br>
+		<label>Idioma:&nbsp;
+			<select name="idioma">
+				<option value="0">Selecione</option>
+				<option value="pt">Português</option>
+				<option value="en">Inglês</option>
+				<option value="es">Espanhol</option>
+			</select>
+		</label>
+		<br><br>
+		<label>URL:&nbsp;
+			<input type="url" name="url">
+		</label>
+		<br><br>
+		<label>Descrição:&nbsp;</label><br>
+		<textarea name="descricao"></textarea>
+		<br><br>
+		<label>Sexo:</label><br>
+		<label>
+			<input type="radio" nCor:&nbsp;ame="sexo" value="masculino">Masculino
+		</label>
+		&nbsp;
+		<label>
+			<input type="radio" name="sexo" value="feminino">Feminino
+		</label>
+		<br><br>
+		<label>Cursos:&nbsp;</label><br>
+		<label>
+			<input type="checkbox" name="cursos" value="1">&nbsp;HTML 5
+		</label><br>
+		<label>	
+			<input type="checkbox" name="cursos" value="2">&nbsp;CSS3
+		</label><br>
+		<label>
+			<input type="checkbox" name="cursos" value="3">&nbsp;JavaScript
+		</label><br><br>
+		<label>Foto:&nbsp;
+			<input type="file" name="foto">
+		</label><br><br>
+		<label>Telefone:&nbsp;
+			<input type="tel" name="telefone">
+		</label><br><br>
+		<label>Quantidade:&nbsp;
+			<input type="number" name="quantidade">
+		</label><br><br>
+		<label>Cor:&nbsp;
+			<input type="color" name="cor">
+		</label><br><br>
+		<label>Pesquisa:&nbsp;
+			<input type="serch"	name="pesquisa">
+		</label><br><br>
+		<label>Quantidade de Novo:&nbsp;
+			<input type="range" name="qtsdenovo">
+		</label><br><br>
+	<div style="width:100%;">
+		<div style=" display:inline-block;">
+			<input type="submit" value="Enviar"/>	
+		</div>
+		<div style="width:30%; display:inline-block; text-align:right;">
+			<input type="reset" value="Limpar" />
+		</div>
+	</div>
+	</form>
+</body>
+</html>

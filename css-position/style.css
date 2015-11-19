@@ -1,0 +1,269 @@
+body{
+	background:url('http://penseempresas.com.br/img/blur-background08.jpg');
+}
+
+menu{
+	padding: 0;
+}
+
+button{
+	cursor: pointer;
+}
+
+  /*CSS CARD LOREM*/
+
+.card-lorem{
+	background:url('http://www.osmais.com/wallpapers/201304/nevoeiro-mata-wallpaper.jpg');
+	background-color: #fff;
+	background-position: -250px -910px;
+	background-repeat: no-repeat;
+	width: 300px;
+	padding: 60px;
+	padding-left: 0px;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 5px 5px 25px 0 black;
+	margin: 20px 20px;
+
+}
+
+.card-lorem h1{
+	color: #fff;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 20px;
+	padding-top: 50px;
+	padding-left: 15px;
+	left: 20px;
+}
+
+.card-lorem h6{
+	color:gray;
+	font-family: sans-serif;
+	font-size: 14px;
+	padding-top: 30px;
+	padding-left: 15px;
+	margin:0;
+}
+
+.card-lorem p{
+	color:#000;
+	font-family: sans-serif;
+	font-size: 14px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	margin:0;
+}
+
+.card-lorem menu{
+	width: 100%;
+	position: absolute;
+	bottom: -12px;
+	border-top:solid 2px #CFCFCF;
+	padding-left: 5px;
+	padding-top: 5px;
+	box-sizing: border-box;
+
+}
+
+.card-lorem menu button{
+	background-color: #fff;
+	border:0;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+
+.card-lorem menu button:hover{
+	background-color: gray;
+}
+
+/*CSS CARD MEDIUM*/
+
+.card-medium{
+	background-color: #fff;
+	width: 355px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-bottom: 100px;
+	position: absolute;
+	border-radius: 5px;
+	box-shadow: 5px 5px 25px 0 black;
+	margin: -343px 410px;
+}
+
+.card-medium h1{
+	color: #E92C6C;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 24px;
+	padding-left: 15px;
+}
+
+.card-medium p{
+	color:#000;
+	font-family: sans-serif;
+	font-size: 16px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	margin:0;
+}
+
+.card-medium menu{
+	width: 100%;
+	position: absolute;
+	bottom: -15px;
+	border-top:solid 1px #CFCFCF;
+	padding-left: 5px;
+	box-sizing: border-box;
+
+}
+
+.card-medium menu button{
+	background-color: #fff;
+	border:0;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+
+.card-medium menu button:hover{
+	background-color: gray;
+}
+
+/*CSS CARD POOCH*/
+
+.card-pooch{
+	background:url('http://statics.1wallpaper.net/thumbimg/20150303/black-bear-bear-tongue-mammals-animals-carnivora-wildlife-wild.jpg');
+	background-color: #fff;
+	background-size: 220px 200px;
+	background-position: -100px;
+	background-repeat: no-repeat;
+	width: 360px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-bottom: 60px;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 5px 5px 25px 0 black;
+	margin:30px 20px;
+}
+
+.card-pooch h1{
+	color: #000;
+	font-family: sans-serif;
+	font-weight: 100;
+	font-size: 24px;
+	padding-left: 150px;
+	padding-top: 20px;
+}
+
+.card-pooch h6{
+	color:gray;
+	font-family: sans-serif;
+	font-size: 14px;
+	padding-left: 150px
+	
+}
+
+.card-pooch menu{
+	width: 66%;
+	position: absolute;
+	bottom: 0;
+	border-top:solid 1px #CFCFCF;
+	padding-left: 5px;
+	margin:0 121px;
+	box-sizing: border-box;
+}
+
+.card-pooch menu button{
+	background-color: #fff;
+	border:0;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+
+}
+
+.card-pooch menu button:hover{
+	background-color: gray;
+}
+
+
+/*CSS CARD DIABLO*/
+
+.card-diablo{
+	background:url('http://segredodoshomens.com/wp-content/uploads/2015/01/Raposa-1.jpg');
+	background-color: #fff;
+	background-size: 220px 200px;
+	background-position: -100px;
+	background-repeat: no-repeat;
+	width: 360px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-bottom: 60px;
+	position: absolute;
+	border-radius: 5px;
+	box-shadow: 5px 5px 25px 0 black;
+	margin:-320px 410px;
+}
+
+.card-diablo h1{
+	color: #000;
+	font-family: sans-serif;
+	font-weight: 100;
+	font-size: 24px;
+	padding-left: 150px;
+	padding-top: 10px;
+}
+
+.card-diablo h6{
+	color:gray;
+	font-family: sans-serif;
+	font-size: 14px;
+	padding-left: 150px
+	
+}
+
+.card-diablo menu{
+	width: 66%;
+	position: absolute;
+	bottom: 0;
+	border-top:solid 1px #CFCFCF;
+	padding-left: 5px;
+	margin:0 121px;
+	box-sizing: border-box;
+}
+
+.card-diablo menu button{
+	background-color: #fff;
+	border:0;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+}
+
+.card-diablo menu button:hover{
+	background-color: gray;
+}
+
+
+

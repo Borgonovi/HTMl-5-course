@@ -1,0 +1,21 @@
+md-toolbar
+
+//form(layout='row', name='playerForm', novalidate)
+
+md-tabs(md-stretch-tabs='always', md-align-tabs='bottom')
+		md-tab(label='Music List')
+			md-content
+				md-list
+					md-list-item.md-3-line(ng-repeat='music in home.musics')
+						div.md-list-item-text
+							h3 {{music.artist}}
+							p {{music.title}}
+										
+		md-tab(label='My Playlist')
+			md-content
+				md-list
+					md-list-item.md-3-line(ng-repeat='playlist in home.playlists')
+						div.md-list-item-text
+							h3 {{playlist.title}}
+							
+

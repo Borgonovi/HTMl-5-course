@@ -1,0 +1,1 @@
+"use strict";function TestController(e){e.name="Felipe",e.sayName=function(){alert("Felipe")},e.courses=["HTML5","CSS3","JavaScript"],e.addCourses=function(){e.course&&(e.courses.push(e.course),e.course=void 0)}}angular.module("example",[]),angular.module("example").controller("TestController",TestController),TestController.$inject=["$scope"];

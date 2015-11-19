@@ -1,0 +1,89 @@
+body{
+	background-color: #F2F2F2;
+	
+}
+
+.btn{	
+	color:#fff;
+	width: 180px;
+	height: 40px;
+	margin-right: 10px;
+	padding: 0 10px;
+	line-height: 2em; /*Tamanho da Linha --- em (tamanho em relaçao a fonte)*/
+	border:0;
+	border-radius: 3px;
+	cursor:pointer;
+	font-family:sans-serif, verdana;
+	font-size:14px;
+	
+}
+
+.btn.primary{
+	background-color: #00BE9C;
+}
+
+.btn.warming{
+	background-color: #EAC900;
+}
+
+.btn.secundary{
+	background-color: #5C6A9B;
+}
+
+.btn.danger{
+	background-color: #E82933;
+}
+
+.btn.primary.hover {
+	background-color:#06947C;  
+}
+
+.btn.warming.hover {
+	background-color: #C0A500;
+}
+
+.btn.secundary.hover {
+	background-color: #3C4A7B;
+}
+
+.btn.danger.hover {
+	background-color: #AC171D;
+}
+
+.btn.primary.active {
+	background-color:#025D4C;  
+}
+
+.btn.warming.active {
+	background-color: #8D7801;
+}
+
+.btn.secundary.active {
+	background-color: #283158;
+}
+
+.btn.danger.active {
+	background-color: #780B11;
+}
+
+.btn.disable{
+	cursor: no-drop;
+}
+
+.btn.primary.disable {
+	background-color: #A8CFCC;  
+}
+
+.btn.warming.disable {
+	background-color: #E4D88C;
+}
+
+.btn.secundary.disable {
+	background-color: #A8AEC6;
+}
+
+.btn.danger.disable {
+	background-color: #E79096;
+}
+
+

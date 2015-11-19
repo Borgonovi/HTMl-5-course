@@ -1,0 +1,30 @@
+md-ink-bar {
+	bottom: auto;
+	top: 0;
+	background: rgb(244,67,54) !important;
+}
+
+md-tabs {
+	height: calc(100vh - 48px - 56px);
+}
+
+md-tabs-wrapper, md-tabs-canvas, md-pagination-wrapper {
+	height: 60px !important;
+}
+
+.md-tab {line-height: 38px}
+
+md-list-item {
+	&:after {
+		content: '';
+		height: 1px;
+		left: 15px;
+		right: 0;
+		bottom: 0;
+		position: absolute;
+		background: #000;
+		opacity: 0.1;
+	}
+
+	&:last-child:after {display: none}
+}
